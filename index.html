@@ -2,20 +2,30 @@
 <html>
 <head>
     <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=1.0">
+    <link rel="shortcut icon" href="assets/images/calculator-icon.png" sizes="16x16"><!-- fav browser icon -->
+    <link href="assets/images/calculator-icon.png" sizes="5x5" rel="icon" type="image/png" /><!-- fav firefox  browser icon -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
 </head>
 <body>
-
-    <h1>Percentage Caluculators</h1>
-    <p>X is what % of Y?</p>
-    <form>
-        <input type="text" id="numField1"> is what % of 
-        <input type="text" id="numField1">?
-        <br>
-        <br>
-        <input type="submit" value="Calculate">
-        <h3 id="resultField">Result: 100%</h3>
-    </form>
-
+    <main id="wrapper">
+        <div id="container">
+            <h1>Percentage Calculators</h1>
+            <p>X is what % of Y?</p>
+            <form id="xIsWhatPerentOfY">
+                <input type="text" id="numField1"> is what % of 
+                <input type="text" id="numField2">?
+                <br>
+                <br>
+                <input type="submit" value="Calculate">
+            </form>
+            <h2 id="resultField">Result: 100%</h2>
+        </div>
+    </main>
+<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="assets/js/myscript.js"></script>
 </body>
 </html>
