@@ -13,16 +13,18 @@
 <body>
     <main id="wrapper">
         <div id="container">
-            <h1>Percentage Calculators</h1>
-            <p>X is what % of Y?</p>
-            <form id="xIsWhatPerentOfY">
-                <input type="text" id="numField1"> is what % of 
-                <input type="text" id="numField2">?
-                <br>
-                <br>
-                <input type="submit" value="Calculate">
-            </form>
-            <h2 id="resultField">Result: 100%</h2>
+            <div id="copy-container">
+                <h1>Percentage Calculator</h1>
+                <p>X is what % of Y?</p>
+                <form id="xIsWhatPerentOfY">
+                    <input type="text" id="numField1"> is what % of 
+                    <input type="text" id="numField2"><span>?</span>
+                    <br>
+                    <br>
+                    <input type="submit" value="Calculate" id="calculate">
+                </form>
+                <h2 id="resultField">Result: </h2>
+            </div>
         </div>
     </main>
 <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
